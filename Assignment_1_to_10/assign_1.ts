@@ -17,3 +17,4 @@ var x = "aHmad" ;
 // string indexing :
 var y = x[0].toUpperCase() + x.slice(1).toLowerCase() ;
 console.log("Output of part 3 : " ,"\n", y ,"\n")
+
