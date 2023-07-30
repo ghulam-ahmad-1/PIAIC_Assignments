@@ -10,6 +10,12 @@ console.log("output of part 1 : ")
 console.log(message , "\n")
 
 // Part 03 : 
-let x1  =  "Rajab" ; 
-console.log("Output of part 2 : " ,"\n", x1.toLowerCase() ,"\n", x1.toUpperCase())
+console.log("Output of part 2 : " ,"\n", x.toLowerCase() ,"\n", x.toUpperCase())
 
+//  Fo title case : 
+let x2 = x[0].toUpperCase
+for (let i = 1  ; i<x.length ; i++) 
+{
+    console.log(x[i].toLowerCase )
+}
+console.log(x2)
