@@ -12,10 +12,8 @@ console.log(message , "\n")
 // Part 03 : 
 console.log("Output of part 2 : " ,"\n", x.toLowerCase() ,"\n", x.toUpperCase())
 
-//  Fo title case : 
-let x2 = x[0].toUpperCase
-for (let i = 1  ; i<x.length ; i++) 
-{
-    console.log(x[i].toLowerCase )
-}
-console.log(x2)
+// title case:
+var x = "aHmad" ;
+// string indexing :
+var y = x[0].toUpperCase() + x.slice(1).toLowerCase() ;
+console.log("Output of part 3 : " ,"\n", y ,"\n")
