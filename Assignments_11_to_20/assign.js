@@ -57,3 +57,17 @@ for (let x = 0; x < people.length; x++) {
 people.pop();
 people.pop();
 console.log("Length of the List : ", people.length, "Empty List !");
+// Q18 :
+let places = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+console.log(places);
+const sortedPlaces = [...places];
+sortedPlaces.sort((a, b) => a.localeCompare(b));
+console.log("Sorted List : ", sortedPlaces);
+console.log("Original List : ", places);
+console.log("Reverse List : ", sortedPlaces.reverse());
+console.log("Original List : ", places);
+// Reversing my original list  :
+console.log("Original List is Reversed now : ", places.reverse());
+console.log("Its back to normal now : ", places.reverse());
+console.log(" Orignal Sorted List : ", places.sort());
+console.log("reverse orderd Sorted list : ", places.reverse());
