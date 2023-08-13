@@ -37,5 +37,23 @@ people.push('Hassan');
 people.unshift('Hussain');
 const mean = people.length / 2;
 people.splice(mean, 0, 'Faizan'); // adding Faizan in the middle of the list
-console.log("New invition list is ready  :");
+console.log("SO ! New invition list is ready  :");
 invite(people);
+// Q17:
+// checking the length if list : 
+console.log("Dinner table won’t arrive in time for the dinner, and now I have space  for 2 space for only two guests.");
+console.log(people.length);
+console.log(people);
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.pop(), "I am  sorry you can’t invite you to dinner.");
+console.log(people.length);
+for (let x = 0; x < people.length; x++) {
+    console.log(people[x], "! you are still invted to dinner ! ");
+}
+people.pop();
+people.pop();
+console.log("Length of the List : ", people.length, "Empty List !");
