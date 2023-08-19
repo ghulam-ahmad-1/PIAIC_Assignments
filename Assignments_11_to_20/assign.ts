@@ -78,3 +78,5 @@ console.log("Original List is Reversed now : ",places.reverse());
 console.log("Its back to normal now : ",places.reverse());
 console.log(" Orignal Sorted List : ",places.sort());
 console.log("reverse orderd Sorted list : ",places.reverse());
+
+//Q19: 
