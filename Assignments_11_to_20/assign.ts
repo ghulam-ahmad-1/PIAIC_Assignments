@@ -56,6 +56,8 @@ console.log(people.pop(),"I am  sorry you can’t invite you to dinner.");
 console.log(people.pop(),"I am  sorry you can’t invite you to dinner.");
 console.log(people.pop(),"I am  sorry you can’t invite you to dinner.");
 console.log(people.length);
+// Copying the list to another list :
+let people2 = [...people];
 for(let x= 0 ; x<people.length ; x++)
 {
     console.log(people[x],"! you are still invted to dinner ! ")
@@ -80,3 +82,11 @@ console.log(" Orignal Sorted List : ",places.sort());
 console.log("reverse orderd Sorted list : ",places.reverse());
 
 //Q19: 
+console.log("The number Of people invited to dinner are : ",people2.length);
+
+// Q20:
+// Think of something you could store in a array. For example, you could make 
+// a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+let mountains = ["K2","Everest","Nanga Parbat","Himalaya","Karakoram"];
+console.log(mountains);
+
